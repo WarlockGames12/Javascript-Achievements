@@ -31,9 +31,9 @@
     function makeThisSentence(){
         let index = randomizer(arrayLength);
         let woord1 = onderwerp[index];
-		let index2 = randomizer(arrayLength);
+		let index2 = randomizer(werkwoordLength);
         let woord2 = werkwoord[index2];
-		let index3 = randomizer(arrayLength);
+		let index3 = randomizer(restwoordLength);
         let woord3 = restwoord[index3];
         let outputString = woord1 + " " + woord2 + " " + woord3;
         return outputString;
@@ -56,8 +56,10 @@
     
     
     const onderwerp = ["she", "Ed", "Rosmerta"];
-    const werkwoord = ["walks", "learns", "drinks"];
-    const restwoord = ["hard", "at school", "coffee"];
+    const werkwoord = ["walks", "learns", "drinks", "sings", "runs"];
+    const restwoord = ["hard", "at school", "coffee", "away"];
         
     let plaatjes = ["https://observer.com/wp-content/uploads/sites/2/2020/05/yoda-art-observer.jpg?", "https://media.makeameme.org/created/french-monke.jpg", "https://i.ytimg.com/vi/FvW045YyFFw/maxresdefault.jpg", "https://pm1.narvii.com/7254/2ddab02cf508edc0d8a3d487c8b9ccff00a6753er1-855-488v2_uhq.jpg", "quality=80" ]
     let arrayLength = onderwerp.length;
+    let werkwoordLength = werkwoord.length;
+    let restwoordLength = restwoord.length;
