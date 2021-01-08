@@ -13,8 +13,8 @@ mijnButton.addEventListener('click', function(){
     getal2 = parseFloat(getal2);
     
     telOp(getal1,getal2);
-    vermenigvuldig(getal1, getal2);
-    aftrekkene(getal1, getal2);
+    vermenigvuldige(getal1,getal2);
+    aftrekkene(getal1,getal2);
     delene(getal1,getal2);
 })
 
@@ -27,7 +27,7 @@ function telOp(getal1,getal2){
 function vermenigvuldig(getal1, getal2){
     let antwoord = getal1 * getal2;
     console.log("vermenigvuldig " + antwoord);
-    vermenigvuldig.innerHTML = antwoord;
+    vermenigvuldige.innerHTML = antwoord;
 }
 
 function aftrekkene(getal1, getal2){
