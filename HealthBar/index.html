@@ -1,0 +1,27 @@
+<html>
+    <head>
+	   <title>Healthbar</title>
+	   <link rel="stylesheet" type="text/css" href="style/style.css">
+	</head>
+    <body>
+        <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="100">at 50/100</meter>   
+        <input id="att" value="attack" type="button">
+        <h1 id="GameOver">Healthbar</h1>
+        
+        <script>
+            document.getElementById("att").addEventListener("click",(e)=>{
+                //Hier code om de meter leeg te maken
+                //Haal via het DOM de elementen binnen
+				var meter = document.getElementById("fuel");
+				meter.value -= 10;
+                //meter.value = meter.value -10;
+				
+				if(meter.value == 0){
+				   document.getElementById("GameOver").innerHTML = "GAME OVER";
+				}
+            });       
+        </script>
+
+    </body>
+
+</html>
