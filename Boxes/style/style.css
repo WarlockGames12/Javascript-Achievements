@@ -1,0 +1,36 @@
+.box{
+	height: 100px;
+	width: 100px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	border: 2px solid;
+	border-color: #FFCC00;
+	color: yellow;
+	background-color: red;
+}
+
+.box1{
+	height: 100px;
+	width: 100px;
+	border: 10px dotted;
+	border-color: #000000;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	color: white;
+	background-color: #59C21D;
+}
+
+.box2{
+	height: 100px;
+	width: 100px;
+	border: 5px dashed;
+	border-color: #D4C9FF;
+	margin-top: 33px;
+	margin-bottom: 22px;
+	color: #E1FF38;
+	background-color: #2D0869;
+}
